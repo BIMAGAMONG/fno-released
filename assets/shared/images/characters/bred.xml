@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="bred.png" width="1902" height="2128">
+	<SubTexture name="Anorra Down Note0000" x="1421" y="1434" width="379" height="694" frameX="-0" frameY="-9" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0001" x="1421" y="1434" width="379" height="694" frameX="-0" frameY="-9" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0002" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0003" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0004" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0005" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0006" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0007" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0008" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0009" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0010" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0011" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0012" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0013" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0014" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0015" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0016" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0017" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0018" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra Down Note0019" x="710" y="1665" width="703" height="358" rotated="true" frameX="-21" frameY="-0" frameWidth="379" frameHeight="703"/>
+	<SubTexture name="Anorra IDLE DANCE0000" x="0" y="1123" width="711" height="435" rotated="true" frameX="-2" frameY="-11" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra IDLE DANCE0001" x="0" y="1123" width="711" height="435" rotated="true" frameX="-2" frameY="-11" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra IDLE DANCE0002" x="722" y="811" width="717" height="440" rotated="true" frameX="-0" frameY="-5" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra IDLE DANCE0003" x="722" y="811" width="717" height="440" rotated="true" frameX="-0" frameY="-5" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra IDLE DANCE0004" x="725" y="377" width="722" height="434" rotated="true" frameX="-3" frameY="-0" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra IDLE DANCE0005" x="725" y="377" width="722" height="434" rotated="true" frameX="-3" frameY="-0" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra IDLE DANCE0006" x="0" y="1558" width="710" height="413" rotated="true" frameX="-7" frameY="-12" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra IDLE DANCE0007" x="0" y="1558" width="710" height="413" rotated="true" frameX="-7" frameY="-12" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra IDLE DANCE0008" x="711" y="1251" width="710" height="414" rotated="true" frameX="-8" frameY="-12" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra IDLE DANCE0009" x="711" y="1251" width="710" height="414" rotated="true" frameX="-8" frameY="-12" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra IDLE DANCE0010" x="711" y="1251" width="710" height="414" rotated="true" frameX="-8" frameY="-12" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra IDLE DANCE0011" x="711" y="1251" width="710" height="414" rotated="true" frameX="-8" frameY="-12" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra IDLE DANCE0012" x="711" y="1251" width="710" height="414" rotated="true" frameX="-8" frameY="-12" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra IDLE DANCE0013" x="711" y="1251" width="710" height="414" rotated="true" frameX="-8" frameY="-12" frameWidth="440" frameHeight="722"/>
+	<SubTexture name="Anorra Left Note0000" x="0" y="0" width="729" height="367" rotated="true" frameX="-4" frameY="-0" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0001" x="0" y="0" width="729" height="367" rotated="true" frameX="-4" frameY="-0" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0002" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0003" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0004" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0005" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0006" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0007" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0008" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0009" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0010" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0011" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0012" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0013" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0014" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0015" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0016" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0017" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0018" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Left Note0019" x="0" y="367" width="725" height="372" rotated="true" frameX="-0" frameY="-4" frameWidth="372" frameHeight="729"/>
+	<SubTexture name="Anorra Right Note0000" x="1456" y="0" width="446" height="716" frameX="-2" frameY="-2" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0001" x="1456" y="0" width="446" height="716" frameX="-2" frameY="-2" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0002" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0003" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0004" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0005" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0006" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0007" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0008" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0009" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0010" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0011" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0012" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0013" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0014" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0015" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0016" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0017" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0018" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Right Note0019" x="1447" y="716" width="442" height="718" frameX="-0" frameY="-0" frameWidth="448" frameHeight="718"/>
+	<SubTexture name="Anorra Up Note0000" x="729" y="0" width="727" height="377" rotated="true" frameX="-0" frameY="-0" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0001" x="729" y="0" width="727" height="377" rotated="true" frameX="-0" frameY="-0" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0002" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0003" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0004" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0005" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0006" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0007" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0008" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0009" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0010" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0011" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0012" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0013" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0014" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0015" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0016" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0017" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0018" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+	<SubTexture name="Anorra Up Note0019" x="0" y="739" width="722" height="384" rotated="true" frameX="-4" frameY="-5" frameWidth="388" frameHeight="728"/>
+</TextureAtlas>

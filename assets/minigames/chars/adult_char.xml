@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="adult_char.png" width="225" height="56">
+	<SubTexture name="anim0001" x="0" y="0" width="112" height="56" rotated="true" frameX="-0" frameY="-0" frameWidth="56" frameHeight="112"/>
+	<SubTexture name="anim0002" x="113" y="0" width="112" height="56" rotated="true" frameX="-0" frameY="-0" frameWidth="56" frameHeight="112"/>
+</TextureAtlas>
