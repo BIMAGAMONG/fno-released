@@ -54,7 +54,7 @@ class Note extends FlxSprite{
 				animation.addByPrefix('greenhold', 'green hold piece');
 				animation.addByPrefix('redhold', 'red hold piece');
 				animation.addByPrefix('bluehold', 'blue hold piece');
-				setGraphicSize(Std.int(width * #if desktop 0.7 #else 0.75 #end));
+				setGraphicSize(Std.int(width * #if desktop 0.7 #else 0.85 #end));
 				updateHitbox();
 		}
 
@@ -80,6 +80,7 @@ class Note extends FlxSprite{
 
 		if (isSustainNote && prevNote != null){
 			noteScore * 0.2;
+			#if mobile setGraphicSize(Std.int(width * 0.75)); #end
 			switch (noteData){
 				case 2: animation.play('greenholdend');
 				case 3: animation.play('redholdend');

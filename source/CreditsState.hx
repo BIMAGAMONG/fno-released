@@ -269,7 +269,7 @@ class CreditsState extends MusicBeatState{
 		if (#if desktop FileSystem.exists(portFile) #else Assets.exists(portFile) #end) portrait.loadGraphic(Paths.image('credits/${user.toLowerCase()}'));
 		else portrait.loadGraphic(Paths.image('credits/special-thanks'));
 
-		portrait.setGraphicSize(Std.int(portrait.width * 0.25));
+		portrait.setGraphicSize(Std.int(portrait.width * 0.5));
 		portrait.updateHitbox();
 		portrait.x = (FlxG.width * 0.825) - (portrait.width/1.5);
 		portrait.antialiasing = FlxG.save.data.antialias;

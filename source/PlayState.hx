@@ -323,12 +323,12 @@ class PlayState extends MusicBeatState{
 					fg.antialiasing = FlxG.save.data.antialias;
 					fg.setGraphicSize(Std.int(fg.width / 3));
 					fg.screenCenter();
-					fg.x -= 520;
+					#if desktop fg.x -= 520; #else fg.x -= 620; #end
 					fg.y += 360;
 					grpFG.add(fg);
 				}
 			case 'brawlCraft':{
-					defaultCamZoom = 0.5;
+					defaultCamZoom = #if desktop 0.5 #else 0.6 #end;
 					switch(type){
 						case '-erect':
 							stagePath = "erect/stageERECT";
@@ -571,10 +571,23 @@ class PlayState extends MusicBeatState{
 				bfCamX = -240;
 				bfCamY = -30;
 				gfCamX = -200;
+				#if mobile
+				bfCamX = -350;
+				dadCamX = 240;
+				#end
 			case 'future':
 				boyfriend.y = 500;
 				dad.y -= 70;
 				bfCamX -= 50;
+				#if mobile
+				defaultCamZoom = FlxG.camera.zoom = 0.7;
+				boyfriend.x += 50;
+				gf.x += 50;
+				gfCamX += 30;
+				dad.x += 50;
+				dadCamX += 120;
+				bfCamX -= 60;
+				#end
 			case 'brawlDesert':
 				dad.x -= 80;
 				gf.x -= 20;
@@ -589,6 +602,14 @@ class PlayState extends MusicBeatState{
 				gfCamX -= 40;
 				dadCamX += 110;
 				bfCamX -= 170;
+				#if mobile
+				FlxG.camera.zoom = defaultCamZoom = 1;
+				dadCamX += 50;
+				bfCamX -= 50;
+				boyfriend.x += 100;
+				dad.x += 100;
+				gf.x += 100;
+				#end
 			case 'brawlCraft':
 				boyfriend.y -= 70;
 				boyfriend.x += 50;
@@ -599,6 +620,11 @@ class PlayState extends MusicBeatState{
 					boyfriend.x += 150;
 					dad.x -= 150;
 				}
+				#if mobile
+				boyfriend.x += 100;
+				dad.x += 100;
+				gf.x += 100;
+				#end
 			case 'blas': dad.y += 330;
 			case 'lab':
 				boyfriend.x += 100;
@@ -606,6 +632,12 @@ class PlayState extends MusicBeatState{
 				gf.y -= 100;
 				bfCamX = -300;
 				dadCamX += 200;
+				#if mobile
+				FlxG.camera.zoom = defaultCamZoom = 1;
+				dadCamX += 100;
+				bfCamX += 50;
+				gfCamX += 30;
+				#end
 			case 'ghost':
 				boyfriend.x += 290;
 				boyfriend.y += 85;
@@ -613,6 +645,11 @@ class PlayState extends MusicBeatState{
 				dad.y += 250;
 				bfCamX = -200;
 				gf.y -= 30;
+				#if mobile
+				dad.x += 100;
+				boyfriend.x += 100;
+				gf.x += 100;
+				#end
 			case 'youtubeBG':
 				boyfriend.y -= 45;
 				boyfriend.x += 30;
@@ -631,6 +668,10 @@ class PlayState extends MusicBeatState{
 				dad.x -= 100;
 				gfCamX -= 80;
 				gfCamY -= 65;
+				#if mobile
+				boyfriend.x += 85;
+				dad.x += 40;
+				#end
 			case 'sakuraStage': gf.y -= 20;
 		}
 
@@ -662,7 +703,7 @@ class PlayState extends MusicBeatState{
 
 		// Lane underlay set up
 		if (FlxG.save.data.laneAlpha != 0){
-			lane = new FlxSprite().makeGraphic(#if desktop 390 #else 935 #end, 725, FlxColor.BLACK);
+			lane = new FlxSprite().makeGraphic(#if desktop 390 #else 940 #end, 725, FlxColor.BLACK);
 			lane.screenCenter(X);
 			lane.antialiasing = false;
 			lane.cameras = [camHUD];
@@ -1211,7 +1252,7 @@ class PlayState extends MusicBeatState{
 					babyArrow.animation.addByPrefix('blue', 'arrowDOWN');
 					babyArrow.animation.addByPrefix('purple', 'arrowLEFT');
 					babyArrow.animation.addByPrefix('red', 'arrowRIGHT');
-					babyArrow.setGraphicSize(Std.int(babyArrow.width * #if desktop 0.7 #else 0.75 #end));
+					babyArrow.setGraphicSize(Std.int(babyArrow.width * #if desktop 0.7 #else 0.85 #end));
 					switch (Math.abs(i)){
 						case 0:
 							babyArrow.animation.addByPrefix('static', 'arrowLEFT');
@@ -1326,7 +1367,7 @@ class PlayState extends MusicBeatState{
 		if (FlxG.keys.justPressed.ONE) endSong();*/
 		#end
 
-		if (!FlxG.save.data.botplay){
+		if (!isEndOfSong && !FlxG.save.data.botplay){
 			#if mobile
 			var touchOne:FlxTouch = FlxG.touches.list[0];
 			var touchTwo:FlxTouch = FlxG.touches.list[1];
@@ -1335,7 +1376,7 @@ class PlayState extends MusicBeatState{
 				else if(touchTwo != null && touchTwo.overlaps(arr, camHUD)) pressArray[arr.ID] = true;
 				else pressArray[arr.ID] = false;
 			}
-			if(FlxG.touches.list.length == 0) pressArray = [false, false, false, false];	
+			if(FlxG.touches.list.length == 0) pressArray = [false, false, false, false];
 			holdArray = pressArray;
 			#else
 			holdArray = [controls.LEFT, controls.DOWN, controls.UP, controls.RIGHT];
@@ -2402,8 +2443,8 @@ class PlayState extends MusicBeatState{
 				spr.offset.x -= 18;
 				spr.offset.y -= 18;
 				#else
-				spr.offset.x -= 17;
-				spr.offset.y -= 17;
+				spr.offset.x -= 20;
+				spr.offset.y -= 20;
 				#end
 			}else spr.centerOffsets();
 		});

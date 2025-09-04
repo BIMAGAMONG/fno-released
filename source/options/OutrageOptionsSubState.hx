@@ -34,7 +34,7 @@ class OutrageOptionsSubState extends MusicBeatSubstate{
                 ["Lane Underlay Opacity", "Change opacity of the background under the notes.", "laneAlpha", 0, 1, 0.1],
                 ["Colorblind Filter", "", "colorBlindFilter", 0, 3, 1]
             ],'Gameplay' => [                       
-                ["Instakill Key", "Pressing 'R' with this enabled will result in an instant game over.", "resetButton"],
+                #if desktop ["Instakill Key", "Pressing 'R' with this enabled will result in an instant game over.", "resetButton"], #end
                 ["Botplay", "The game plays for you, no strings attached.", "botplay"],
                 ["View Combo and Rating", "View the ratings (Eg. Outrage!) and combo numbers when hitting notes.", "comboViewOption"],
                 #if desktop ["Downscroll", "Notes will come from above, your strums will be at the bottom of the screen.", "downscroll"], #end
