@@ -12,7 +12,7 @@ class KadeEngineData{
 	public static var unlockedSongsArray:Array<String> = [];
 	public static var songBeatenArray:Array<String> = [];
 	public static var erectSongsBeaten:Array<String> = [];
-	public static var languages:Array<String> = ['eng', 'esp', 'ita', 'rus'/*, 'ptbr'*/];
+	public static var languages:Array<String> = ['eng', 'esp', 'ita', 'rus', 'ptbr'];
 
 	public static function pushUnlockedSong(song:String){
 		unlockedSongsArray.push(song);
